@@ -1,0 +1,19 @@
+{
+  "name": "cli-tool-node",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "node": ">=16",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js employee"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.16"
+  }
+}
